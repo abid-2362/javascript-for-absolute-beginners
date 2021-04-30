@@ -1,27 +1,43 @@
-// variables and constants
+// Data Types in JavaScript
 
-// Assigning the values to variables
-let userName = "Abid Ali";
-
-
-// assigning the values to the constants
-const pi = 3.14;
-
-// userName;
+// JavaScript has multiple data types
 
 /*
-ye 1 multi line comment He
-is mein 1 se ziada lines hein
+    String      -> any text data
+    Integer     -> 10
+    Float       -> 20.50
+    Array       -> let employeeNames = ["Abid", "Ahmad", "Ashraf"]
+    Object      -> let employee = {"name": "Abid", "address": "123 Web Town", "city": "position", "Developer"}
+    Boolean     -> true or false
+    undefined,
+    null,
 */
 
+// String Data
+let name = "Abid Ali";
 
-// accessing the variable values
-alert(userName);
+// ineteger data
+let treesInGarden = 10;
 
-// Changing the values in variables - allowed
-userName = "Abid";
+// float data
+let priceOfItem = 23.50;
 
-// changing the values in the constatns - NOT ALLOWED
-// pi = 3.15
+// array data
+let listOfCities = ['Islamabad', 'Lahore', "Faisalabad"];
 
-alert(userName);
+// object data
+let employeeDetails = {
+    name: "Ahsan", // string
+    position: "Developer", // string
+    phone: "+921234567890", // string
+    availableOnWeekend: false, // boolean
+    age: 25 // integer
+};
+
+// boolean data
+let isValid = false;
+
+
+// undefined and null data
+let age = undefined;
+let workHours = null;
