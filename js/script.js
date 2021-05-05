@@ -113,10 +113,7 @@ for(let x = 1; x <= 10; x++) {
 }
 
 document.write("<hr>");
-// livereload
 
-// let userNumber = prompt("Please enter the number to generate a table for it");
-// console.log(userNumber); 
 
 
 // excercise
@@ -134,3 +131,16 @@ document.write("<hr>");
     use if, else to determine if the number
     is in the required range
 */
+
+let userNumber = prompt("Please enter the number to generate a table for it");
+if(userNumber < 1) {
+    document.write("Number less than 1 is not allowed");
+} else if(userNumber > 10) {
+    document.write("Number greater than 10 is not allowed");
+} else {
+    for(let x = 1; x <= 10; x++) {
+        document.write(`${userNumber} x ${x} = ${userNumber * x} <br>`);
+    }
+}
+
+console.log('end of program')
